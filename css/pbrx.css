@@ -1,0 +1,35 @@
+section {
+	border: 4rem solid salmon;
+}
+section.present > .light-text {
+	color: #fff;
+	text-shadow: 1px 1px #222;
+}
+section.present > .light-text.raised {
+    position: relative;
+    bottom: 6rem;
+    left: 20%;
+}
+.pbrx-heading-code {
+	color: red;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 2rem;
+}
+.pbrx-inline-code {
+	color: red;
+	font-family: "Courier New", Courier, monospace;
+}
+h2.uncaps,
+h3.uncaps,
+h4.uncaps,
+h5.uncaps {
+    text-transform: none;
+}
+
+.reveal pre code.pbrx-html {
+	padding: 2rem;
+}
+
+span.hljs-string  {
+	padding: 2rem;
+}
