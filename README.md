@@ -1,6 +1,8 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains a starter Reveal.js demo that is intended to be fleshed out in order to provide orientation to new users about how to contribute.
+
+![Reveal.js Cover Page](https://api.monosnap.com/rpc/file/download?id=EIDvEEoi7xfNcuwDW2LXXvYBbZv9oH)
 
 ### What is this repository for? ###
 
