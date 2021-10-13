@@ -105,7 +105,7 @@
 			// Flags if speaker notes should be visible to all viewers
 			showNotes: false,
 
-			// Global override for autolaying embedded media (video/audio/iframe)
+			// Global override for autoplaying embedded media (video/audio/iframe)
 			// - null: Media will only autoplay if data-autoplay is present
 			// - true: All media will autoplay, regardless of individual setting
 			// - false: No media will autoplay, regardless of individual setting
@@ -413,7 +413,7 @@
 		for( var i = 0, len = config.dependencies.length; i < len; i++ ) {
 			var s = config.dependencies[i];
 
-			// Load if there's no condition or the condition is truthy
+			// Load if there's no condition or the condition is true
 			if( !s.condition || s.condition() ) {
 				if( s.async ) {
 					scriptsAsync.push( s.src );
@@ -652,7 +652,7 @@
 		// Slide and slide background layout
 		toArray( dom.wrapper.querySelectorAll( SLIDES_SELECTOR ) ).forEach( function( slide ) {
 
-			// Vertical stacks are not centred since their section
+			// Vertical stacks are not centered since their section
 			// children will be
 			if( slide.classList.contains( 'stack' ) === false ) {
 				// Center the slide inside of the page, giving the slide some margin
@@ -1810,7 +1810,7 @@
 				}
 
 				if( config.center || slide.classList.contains( 'center' ) ) {
-					// Vertical stacks are not centred since their section
+					// Vertical stacks are not centered since their section
 					// children will be
 					if( slide.classList.contains( 'stack' ) ) {
 						slide.style.top = 0;
